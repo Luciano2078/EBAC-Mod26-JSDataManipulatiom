@@ -16,7 +16,7 @@ filteredMonths.forEach(month => {
 
 
 let sunMonthDays = filteredMonths.reduce( (prev, next) => {
-    return {day: prev.day + next.day}
+    return { day: prev.day + next.day }
 })
 
 
